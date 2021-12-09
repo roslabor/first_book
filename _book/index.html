@@ -1,0 +1,331 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>前言 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter active" data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >前言</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="introduction">Introduction</h1>
+<h2 id="&#x5173;&#x4E8E;topomap&#x7684;&#x6700;&#x5C0F;&#x4F9D;&#x8D56;&#x5305;&#x5907;&#x4EFD;">&#x5173;&#x4E8E;topomap&#x7684;&#x6700;&#x5C0F;&#x4F9D;&#x8D56;&#x5305;<strong>&#x5907;&#x4EFD;</strong></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x5305;&#x540D;</th>
+<th style="text-align:left">&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">topomap_tools</td>
+<td style="text-align:left">&#x751F;&#x6210;topo&#x5DE5;&#x5177;&#x5305;</td>
+</tr>
+<tr>
+<td style="text-align:left">topo_planner</td>
+<td style="text-align:left">&#x7ED9;&#x4E88;topomap &#x89C4;&#x5212;&#x5305;</td>
+</tr>
+<tr>
+<td style="text-align:left">topo_publish</td>
+<td style="text-align:left">topomap &#x53D1;&#x5E03;&#x5305;</td>
+</tr>
+<tr>
+<td style="text-align:left">wankeyuncheng_7B</td>
+<td style="text-align:left">&#x6D4B;&#x8BD5;&#x7528;&#x4F8B;&#x5730;&#x56FE;</td>
+</tr>
+</tbody>
+</table>
+<h3 id="&#x7F16;&#x8BD1;">&#x7F16;&#x8BD1;</h3>
+<pre><code>mkdir -p catkin_ws/src
+cd catkin_ws/src
+git clone https://gitlab.ctirobot.com/candle/planning/topomap
+cd catkin_ws 
+catkin_ws
+</code></pre><p>&#x200B;    </p>
+<blockquote>
+<p> &#x6279;&#x91CF;&#x751F;&#x6210;*.topo&#x62D3;&#x6251;&#x56FE;&#x6587;&#x4EF6;</p>
+</blockquote>
+<pre><code class="lang-shell">$ source topomap_tools &#x5DE5;&#x4F5C;&#x73AF;&#x5883;
+# &#x8FDB;&#x5165;&#x5230;&#x5730;&#x56FE;&#x6587;&#x4EF6;
+$ cd wankeyuncheng_7B/
+$ ls  &#x5982;&#x56FE;1
+# &#x6267;&#x884C;&#x6307;&#x4EE4;&#x6279;&#x91CF;&#x6279;&#x91CF;&#x751F;&#x6210;*.topo &#x5982;&#x56FE;2
+$ rosrun topomap_tools topomap_generator_node --all
+</code></pre>
+<ol>
+<li>&#x56FE;1 </li>
+</ol>
+<p><img src="images/1.png" alt=""></p>
+<ol>
+<li>&#x56FE;2</li>
+</ol>
+<p><img src="images/2.png" alt=""></p>
+<blockquote>
+<p>&#x53EF;&#x89C6;&#x5316;*.topo&#x6587;&#x4EF6;</p>
+</blockquote>
+<pre><code class="lang-shell">$ source topomap_tools &#x5DE5;&#x4F5C;&#x73AF;&#x5883;
+# &#x8FDB;&#x5165;&#x5230;&#x5730;&#x56FE;&#x6587;&#x4EF6;
+$ cd wankeyuncheng_7B/
+# rosrun topomap_tools topomap_loader_node &#x697C;&#x5C42;
+$ rosrun topomap_tools topo_publisher_node 1  # &#x56FE;3
+</code></pre>
+<ol>
+<li><p>&#x56FE;3</p>
+<p><img src="images/3.png" alt=""></p>
+</li>
+</ol>
+<p>roslaunch &#x65B9;&#x5F0F;&#x542F;&#x52A8; topomap_loader_node</p>
+<pre><code class="lang-shell">$ source topomap_tools &#x5DE5;&#x4F5C;&#x73AF;&#x5883;
+# &#x8FDB;&#x5165;&#x5230;&#x5730;&#x56FE;&#x6587;&#x4EF6; &#x53EF;&#x89C6;&#x5316;&#x53D1;&#x5E03;(roslaunch topo_publish graph_publisher.launch &#x53EA;&#x53D1;&#x5E03;cti_msgs/Graph msgs &#x6CA1;&#x6709;&#x53EF;&#x89C6;&#x5316;)
+$ roslaunch topomap_tools topo_publisher.launch 
+# rospotic &#x6307;&#x4EE4;&#x5207;&#x6362;&#x5730;&#x56FE; &#x56FE;4 &#x5207;&#x6362;&#x540E;
+$ rostopic pub /active_map cti_msgs/ChangeMapCmd &quot;building: &apos;wankeyuncheng_7B&apos;
+level: &apos;27&apos;&quot;
+</code></pre>
+<ol>
+<li><p>&#x56FE;4 </p>
+<p><img src="images/4.png" alt=""></p>
+<h3 id="&#x4F7F;&#x7528;&#x62D3;&#x6251;&#x56FE;&#x4F5C;&#x4E3A;movebase-&#x5168;&#x5C40;&#x89C4;&#x5212;">&#x4F7F;&#x7528;&#x62D3;&#x6251;&#x56FE;&#x4F5C;&#x4E3A;move_base &#x5168;&#x5C40;&#x89C4;&#x5212;</h3>
+<p>&#x4FEE;&#x6539;&#x6587;&#x4EF6;:  </p>
+<pre><code>/comom/robot/br_navigation/param/BR204/move_base_params.yaml
+base_global_planner: &quot;topo_graph_planner/TopoGraphPlanner&quot;
+</code></pre><p>&#x91CD;&#x542F;&#x4EFF;&#x771F; &#x6307;&#x70B9;&#x5BFC;&#x822A;</p>
+</li>
+</ol>
+<p><img src="images/5.gif" alt=""></p>
+<h4 id="topoplannerserver-&#x670D;&#x52A1;">topo_planner_server &#x670D;&#x52A1;</h4>
+<pre><code class="lang-shell">roslaunch topo_planner topo_graph_server.launch 
+
+rosnode info /topo_graph_server
+--------------------------------------------------------------------------------
+Node [/topo_graph_server]
+Publications: 
+ * /plan2 [nav_msgs/Path]
+ * /rosout [rosgraph_msgs/Log]
+
+Subscriptions: 
+ * /graph_map [unknown type]
+ * /navigation_map [unknown type]
+ * /zones [unknown type]
+
+Services: 
+ * /topo_graph_server/get_itst_plan
+ * /topo_graph_server/get_loggers
+ * /topo_graph_server/make_plan
+ * /topo_graph_server/set_logger_level
+
+&#x670D;&#x52A1;API
+rosservice info /topo_graph_server/make_plan
+Node: /topo_graph_server
+URI: rosrpc://wg:40533
+Type: nav_msgs/GetPlan
+Args: start goal tolerance
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"前言","level":"1.1","depth":1,"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2021-12-09T08:25:16.824Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-12-09T09:43:38.442Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
